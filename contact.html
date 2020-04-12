@@ -1,15 +1,16 @@
-  
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <title>About</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
+
 </head>
 
 <body>
 
+<!--Navigation Bar-->
 <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand brand-name text-white">Jessica Rubio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,32 +32,50 @@
         </div>
 </nav>
 
-    <div class="main-container2">
-        <section id="contact-box">
-            <h2 id="contact">Contact</h2>
-                
+<!--Main Section-->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <section class="main-section">
+                <h1 class="header">Contact</h1>
+                <hr class="main-divider">
+                    <p>
+                        This is a direct link to my email:
+                        <a href="mailto:thcrump38@yahoo.com" target="_top">Send Mail</a>
+                    </p>
                 <form id="contact-form">
-                    <ul>
-                        <li>
-                            <label for="name">Name</label>
-                            <input type="text" name="name" placeholder="Jessica Rubio" required="required">
-                        </li>
-                        <li>
-                            <label for="email" id="email-label">Email</label>
-                            <input type="email" name="email" placeholder="example@icloud.com" required="required">
-                        </li>
-                        <li>
-                            <label for="message" id="message-label">Message</label>
-                            <textarea id="message" name="message" required="required"></textarea>
-                        </li>
-                    </ul>
-                    <input id="submit" type="submit">
+                    <div class="form-group">
+                        <label for="exampleInputName1">Name</label>
+                        <input type="name" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Enter your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
-        </section>
-    </div>
-    
-    <div id="bottom-container1">
-        <footer id="footer1">Copyright</footer>
-    </div>
+            </section>
+        </div>
+
+        <footer>
+<div class="footer-container">
+    Copyright &copy; 2018 
+</div>
+</footer>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>
